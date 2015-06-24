@@ -12,7 +12,8 @@ setup(
     version='0.1-dev',
     packages=find_packages(),
     install_requires=[
-        "lxml>=3.4"
+        "lxml>=3.4",
+        "GitPython==1.0.1"
     ],
     include_package_data = True,
     zip_safe=False,
