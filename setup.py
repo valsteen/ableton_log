@@ -18,5 +18,6 @@ setup(
     zip_safe=False,
     entry_points={'console_scripts': [
         'abletondiff = ableton_log.ableton_diff:run',
+        'abletongitlog = ableton_log.ableton_gitlog:run'
     ]}
 )
