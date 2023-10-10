@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "lxml>=3.4",
-        "GitPython==1.0.1"
+        "GitPython==3.1.37"
     ],
     include_package_data = True,
     zip_safe=False,
